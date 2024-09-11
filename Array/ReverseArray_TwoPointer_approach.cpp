@@ -16,8 +16,16 @@ void reverseArray(int nums[], int size){
     }
 }
 int main(){
-    int nums[] = {1,2,3,4,5};
-    int size = sizeof(nums)/sizeof(nums[0]);
+    int size;
+    cout<<"enter size of array: "<<endl;
+    cin>>size;
+    int nums[size];
+    cout<<"enter elements of array: "<<endl;
+    for(int i = 0; i<size; i++){
+        int x;
+        cin>>x;
+        nums[i] = x;
+    }
     cout<<"Before Reverse: "<<endl;
     // for each loop
     for(int ele: nums) cout<<ele<<" ";
