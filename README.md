@@ -1,1 +1,1 @@
-﻿# Data-Structure-and-ALgorithms With C++
+﻿# Data-Structure-and-Algorithms With C++
