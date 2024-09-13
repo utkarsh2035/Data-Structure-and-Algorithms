@@ -16,7 +16,7 @@ int main(){
     cout<<"enter target element: "<<endl;
     cin>>target;
     vector<int> ans(2);
-    for(int i = 0; i<size; i++){
+    for(int i = 0; i<size-1; i++){
         for(int j = i+1; j<size; j++){
             if(nums[i] + nums[j] == target){
                 ans[0] = i;
